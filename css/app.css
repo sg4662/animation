@@ -1,0 +1,159 @@
+body{
+  background-color: #3f51b5;
+}
+
+
+h1 {
+  font-size: 50px;
+    color: white;
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #ff8605;
+
+  }
+
+  h2{
+    font-size: 25px;
+    text-align: center;
+    color: #ff8605;
+  }
+
+
+p{
+  color: white;
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+  margin: 70px;
+  text-align: center;
+
+
+}
+
+
+.succeed{
+  font-size: 60px;
+  /*color:green;*/
+  /*border: 10px double green;*/
+  width:360px;
+  text-align: center;
+  margin: 20px 500px;
+  position: relative;
+  float: right;
+  /*-webkit-animation: succeed 5s infinite;*/
+  animation: succeed 10s infinite;
+  text-shadow: 2px 3px 2px #d0caca;
+
+}
+
+@keyframes succeed{
+  0%   {color: red; left: 100px; top: -180px;}
+  25%  {color: #ff0505; left: 500px; top: 0px;}
+  50%  {color: #ff8605; left: 505px; top: -120px;}
+  75%  {color: #05b5ff; left: -120px; top: 250px;}
+  100% {color: #ffb505; left: 100px; top: -180px;}
+}
+
+b{
+  animation: bee 5s infinite ;
+  text-shadow: 2px 3px 2px #d0caca;
+
+
+}
+
+@keyframes bee{
+  0%   {color: red; left: 100px; top: -180px;}
+  25%  {color: #05b5ff; left: 500px; top: 0px;}
+  50%  {color: #ff8605; left: 505px; top: -120px;}
+  75%  {color: #ff8505; left: -120px; top: 250px;}
+  100% {color: #fc1949; left: 100px; top: -180px;}
+}
+
+.ball{
+  width: 300px;
+  height: 435px;
+  margin: -60px 480px;
+  background-image: url(../images/ball.jpg);
+ animation: ball 3s steps(5) infinite;
+}
+
+@keyframes ball {
+  from { background-position:    0px; }
+    to { background-position: -1500px; }
+}
+
+
+.hover{
+
+  display: inline;
+  margin: 30px 530px;
+}
+
+#wrapper{
+  width: 300px;
+  height: 435px;
+}
+
+#wrapper .text {
+position:absolute;
+float: right;
+bottom:30px;
+left:0px;
+visibility:hidden;
+
+}
+
+#wrapper:hover .text {
+
+  color: white;
+  font-size: 53px;
+  visibility:visible;
+  text-align: center;
+  padding: 300px 20px;
+  margin: -200px 300px;
+  text-shadow: 2px 3px 2px #767270;
+  animation: bask 10s infinite;
+
+}
+
+
+#wrapper:hover{
+  font-size: 90px;
+  color: red;
+  animation: bask 10s infinite;
+
+
+}
+
+@keyframes bask{
+  0%   {top: 410px;}
+  25%  {top: -120px;}
+  50%  {top: 200;}
+  100%   {top: 410px;}
+  /*75%  {left: -120px; top: 250px;}
+  100% {left: 0px; top: -200px;}*/
+}
+
+
+li{
+
+  margin: 5px -340px -40px 400px;
+  /*padding: 10px 100px;*/
+  display: inline-block;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px white;
+
+
+}
+
+ul .nav {
+  color: white;
+}
+
+
+.pageone{
+  text-align: center;
+  }
+
+ a:visited{
+  color: #d36742;
+}
